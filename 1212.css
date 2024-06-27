@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+.Title {
+  text-align: center;
+  font-size: 80px;
+  padding: 30px;
+}
+
+.Container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Sherman, .T-72, .Bradley, .ADATS, .Leopard, .MAUS, .M1Abrams, .T-90, .T-14, .PL-01, .AbramsX {
+  border: solid black 2px;
+  border-radius: 8px;
+}
+
+.Name {
+  color: blue;
+  padding: 20px;
+}
